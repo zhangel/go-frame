@@ -1,4 +1,4 @@
-module github.com/zhangel/go-frame.git
+module github.com/zhangel/go-frame
 
 go 1.16
 
