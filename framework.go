@@ -17,6 +17,23 @@ import (
 	_ "github.com/zhangel/go-frame.git/profile"
 	_ "github.com/zhangel/go-frame.git/prometheus"
 	_ "github.com/zhangel/go-frame.git/registry"
+	_ "github.com/zhangel/go-frame.git/retry"
+	_ "github.com/zhangel/go-frame.git/tracing"
+
+	_ "github.com/zhangel/go-frame.git/config_plugins"
+	_ "github.com/zhangel/go-frame.git/control_plugins"
+
+	"go.uber.org/automaxprocs/maxprocs"
+
+	_ "github.com/zhangel/go-frame.git/balancer"
+	_ "github.com/zhangel/go-frame.git/config"
+	_ "github.com/zhangel/go-frame.git/control"
+	_ "github.com/zhangel/go-frame.git/credentials"
+	_ "github.com/zhangel/go-frame.git/db"
+	"github.com/zhangel/go-frame.git/declare"
+
+
+
 	"time"
 )
 
