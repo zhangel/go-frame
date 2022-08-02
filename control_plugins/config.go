@@ -9,11 +9,11 @@ import (
 	cmap "github.com/orcaman/concurrent-map"
 	"google.golang.org/grpc/codes"
 
-	"git-biz.qianxin-inc.cn/infra-components/sdk/microservice-framework/go-framework.git/config"
-	"git-biz.qianxin-inc.cn/infra-components/sdk/microservice-framework/go-framework.git/config/combined"
-	"git-biz.qianxin-inc.cn/infra-components/sdk/microservice-framework/go-framework.git/control"
-	"git-biz.qianxin-inc.cn/infra-components/sdk/microservice-framework/go-framework.git/declare"
-	"git-biz.qianxin-inc.cn/infra-components/sdk/microservice-framework/go-framework.git/server"
+	"github.com/zhangel/go-frame.git/config"
+	"github.com/zhangel/go-frame.git/config/combined"
+	"github.com/zhangel/go-frame.git/control"
+	"github.com/zhangel/go-frame.git/declare"
+	"github.com/zhangel/go-frame.git/server"
 )
 
 const (

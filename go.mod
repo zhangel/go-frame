@@ -1,10 +1,8 @@
-module github.com/zhangel/go-frame
+module github.com/zhangel/go-frame.git
 
 go 1.16
 
 require (
-	git-biz.qianxin-inc.cn/infra-components/sdk/microservice-framework/go-framework.git v1.0.305
-	git-open.qianxin-inc.cn/free/pkix.git v0.0.3
 	github.com/NYTimes/gziphandler v1.1.1
 	github.com/ahmetb/go-linq/v3 v3.2.0
 	github.com/cep21/circuit/v3 v3.2.2
@@ -13,6 +11,7 @@ require (
 	github.com/golang/protobuf v1.5.2
 	github.com/google/uuid v1.3.0
 	github.com/gorilla/mux v1.8.0
+	github.com/gorilla/websocket v1.4.2 // indirect
 	github.com/grpc-ecosystem/go-grpc-prometheus v1.2.0
 	github.com/grpc-ecosystem/grpc-gateway v1.16.0
 	github.com/iancoleman/strcase v0.2.0
@@ -34,6 +33,7 @@ require (
 	golang.org/x/sys v0.0.0-20220412211240-33da011f77ad
 	google.golang.org/genproto v0.0.0-20210126160654-44e461bb6506
 	google.golang.org/grpc v1.33.1
+	gopkg.in/natefinch/npipe.v2 v2.0.0-20160621034901-c1b8fa8bdcce // indirect
 	gopkg.in/yaml.v3 v3.0.1
 )
 

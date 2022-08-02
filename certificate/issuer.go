@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"time"
 
-	"git-open.qianxin-inc.cn/free/pkix.git"
+	"github.com/zhangel/go-frame.git/pkix"
 )
 
 //go:generate mockery -name Issuer -inpkg -case underscore
