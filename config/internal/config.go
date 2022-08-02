@@ -3,8 +3,8 @@ package internal
 import (
 	"time"
 
-	"github.com/zhangel/go-frame.git/config/watcher"
-	"github.com/zhangel/go-frame.git/declare"
+	"github.com/zhangel/go-frame/config/watcher"
+	"github.com/zhangel/go-frame/declare"
 )
 
 var ConfigPlugin = declare.PluginType{Name: "config"}

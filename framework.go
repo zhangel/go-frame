@@ -2,7 +2,7 @@ package framework
 
 import (
 	"fmt"
-	"github.com/zhangel/go-frame.git/config"
+	"github.com/zhangel/go-frame/config"
 	"log"
 	"os"
 	"os/signal"
@@ -11,26 +11,26 @@ import (
 	"sync"
 	"sync/atomic"
 	"syscall"
-	internal_config "github.com/zhangel/go-frame.git/internal/config"
-	"github.com/zhangel/go-frame.git/lifecycle"
-	framework_logger "github.com/zhangel/go-frame.git/log"
-	_ "github.com/zhangel/go-frame.git/profile"
-	_ "github.com/zhangel/go-frame.git/prometheus"
-	_ "github.com/zhangel/go-frame.git/registry"
-	_ "github.com/zhangel/go-frame.git/retry"
-	_ "github.com/zhangel/go-frame.git/tracing"
+	internal_config "github.com/zhangel/go-frame/internal/config"
+	"github.com/zhangel/go-frame/lifecycle"
+	framework_logger "github.com/zhangel/go-frame/log"
+	_ "github.com/zhangel/go-frame/profile"
+	_ "github.com/zhangel/go-frame/prometheus"
+	_ "github.com/zhangel/go-frame/registry"
+	_ "github.com/zhangel/go-frame/retry"
+	_ "github.com/zhangel/go-frame/tracing"
 
-	_ "github.com/zhangel/go-frame.git/config_plugins"
-	_ "github.com/zhangel/go-frame.git/control_plugins"
+	_ "github.com/zhangel/go-frame/config_plugins"
+	_ "github.com/zhangel/go-frame/control_plugins"
 
 	"go.uber.org/automaxprocs/maxprocs"
 
-	_ "github.com/zhangel/go-frame.git/balancer"
-	_ "github.com/zhangel/go-frame.git/config"
-	_ "github.com/zhangel/go-frame.git/control"
-	_ "github.com/zhangel/go-frame.git/credentials"
-	_ "github.com/zhangel/go-frame.git/db"
-	"github.com/zhangel/go-frame.git/declare"
+	_ "github.com/zhangel/go-frame/balancer"
+	_ "github.com/zhangel/go-frame/config"
+	_ "github.com/zhangel/go-frame/control"
+	_ "github.com/zhangel/go-frame/credentials"
+	_ "github.com/zhangel/go-frame/db"
+	"github.com/zhangel/go-frame/declare"
 
 
 

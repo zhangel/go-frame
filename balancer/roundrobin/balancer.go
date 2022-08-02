@@ -3,8 +3,8 @@ package roundrobin
 import (
 	"context"
 	"fmt"
-	"github.com/zhangel/go-frame.git/balancer"
-	"github.com/zhangel/go-frame.git/balancer/picker"
+	"github.com/zhangel/go-frame/balancer"
+	"github.com/zhangel/go-frame/balancer/picker"
 )
 
 type options struct {

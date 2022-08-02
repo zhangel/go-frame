@@ -9,11 +9,11 @@ import (
 	cmap "github.com/orcaman/concurrent-map"
 	"google.golang.org/grpc/codes"
 
-	"github.com/zhangel/go-frame.git/config"
-	"github.com/zhangel/go-frame.git/config/combined"
-	"github.com/zhangel/go-frame.git/control"
-	"github.com/zhangel/go-frame.git/declare"
-	"github.com/zhangel/go-frame.git/server"
+	"github.com/zhangel/go-frame/config"
+	"github.com/zhangel/go-frame/config/combined"
+	"github.com/zhangel/go-frame/control"
+	"github.com/zhangel/go-frame/declare"
+	"github.com/zhangel/go-frame/server"
 )
 
 const (

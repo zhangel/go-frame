@@ -26,7 +26,7 @@ import (
 	"google.golang.org/grpc/metadata"
 	"google.golang.org/grpc/peer"
 
-	"github.com/zhangel/go-frame.git/log"
+	"github.com/zhangel/go-frame/log"
 )
 
 const Http2Proto = "h2"

@@ -9,17 +9,17 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/zhangel/go-frame.git/config"
-	"github.com/zhangel/go-frame.git/lifecycle"
-	"github.com/zhangel/go-frame.git/utils"
+	"github.com/zhangel/go-frame/config"
+	"github.com/zhangel/go-frame/lifecycle"
+	"github.com/zhangel/go-frame/utils"
 
 	"github.com/google/uuid"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/metadata"
 	"google.golang.org/grpc/status"
 
-	"github.com/zhangel/go-frame.git/log"
-	"github.com/zhangel/go-frame.git/log/fields"
+	"github.com/zhangel/go-frame/log"
+	"github.com/zhangel/go-frame/log/fields"
 )
 
 const (

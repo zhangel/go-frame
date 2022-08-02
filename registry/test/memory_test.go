@@ -7,11 +7,11 @@ import (
 	"testing"
 	"time"
 
-	"github.com/zhangel/go-frame.git"
-	"github.com/zhangel/go-frame.git/dialer"
-	"github.com/zhangel/go-frame.git/registry"
-	"github.com/zhangel/go-frame.git/server"
-	"github.com/zhangel/go-frame.git/testpb"
+	"github.com/zhangel/go-frame"
+	"github.com/zhangel/go-frame/dialer"
+	"github.com/zhangel/go-frame/registry"
+	"github.com/zhangel/go-frame/server"
+	"github.com/zhangel/go-frame/testpb"
 )
 
 const (

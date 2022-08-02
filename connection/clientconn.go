@@ -1,7 +1,7 @@
 package connection
 
 import (
-	"github.com/zhangel/go-frame.git/hooks"
+	"github.com/zhangel/go-frame/hooks"
 
 	"google.golang.org/grpc"
 )

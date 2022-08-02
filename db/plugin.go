@@ -3,7 +3,7 @@ package db
 import (
 	"sync"
 
-	"github.com/zhangel/go-frame.git/declare"
+	"github.com/zhangel/go-frame/declare"
 )
 
 var (

@@ -1,6 +1,6 @@
 package plugin
 
-import "github.com/zhangel/go-frame.git/config/internal"
+import "github.com/zhangel/go-frame/config/internal"
 
 // 这玩意儿存在的唯一价值是为了解除与Plugin的循环引用……
 

@@ -8,13 +8,13 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/zhangel/go-frame.git/config"
-	"github.com/zhangel/go-frame.git/config/watcher"
-	"github.com/zhangel/go-frame.git/lifecycle"
-	"github.com/zhangel/go-frame.git/log/entry"
-	"github.com/zhangel/go-frame.git/log/fields"
-	"github.com/zhangel/go-frame.git/log/level"
-	"github.com/zhangel/go-frame.git/log/logger"
+	"github.com/zhangel/go-frame/config"
+	"github.com/zhangel/go-frame/config/watcher"
+	"github.com/zhangel/go-frame/lifecycle"
+	"github.com/zhangel/go-frame/log/entry"
+	"github.com/zhangel/go-frame/log/fields"
+	"github.com/zhangel/go-frame/log/level"
+	"github.com/zhangel/go-frame/log/logger"
 )
 
 type rateLimitKey struct {

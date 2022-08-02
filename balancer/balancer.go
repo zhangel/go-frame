@@ -7,9 +7,9 @@ import (
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/naming"
 
-	"github.com/zhangel/go-frame.git/balancer/internal"
-	"github.com/zhangel/go-frame.git/declare"
-	"github.com/zhangel/go-frame.git/plugin"
+	"github.com/zhangel/go-frame/balancer/internal"
+	"github.com/zhangel/go-frame/declare"
+	"github.com/zhangel/go-frame/plugin"
 )
 
 var (

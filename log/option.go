@@ -1,10 +1,10 @@
 package log
 
 import (
-	"github.com/zhangel/go-frame.git/log/encoder"
-	"github.com/zhangel/go-frame.git/log/level"
-	"github.com/zhangel/go-frame.git/log/logger"
-	"github.com/zhangel/go-frame.git/log/writer"
+	"github.com/zhangel/go-frame/log/encoder"
+	"github.com/zhangel/go-frame/log/level"
+	"github.com/zhangel/go-frame/log/logger"
+	"github.com/zhangel/go-frame/log/writer"
 )
 
 type Options struct {

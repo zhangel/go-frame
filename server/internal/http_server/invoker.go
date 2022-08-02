@@ -16,9 +16,9 @@ import (
 	"google.golang.org/grpc/metadata"
 	"google.golang.org/grpc/status"
 
-	grpc_gateway "github.com/zhangel/go-frame.git/3rdparty/grpc-gateway"
-	"github.com/zhangel/go-frame.git/log"
-	"github.com/zhangel/go-frame.git/memory_registry"
+	grpc_gateway "github.com/zhangel/go-frame/3rdparty/grpc-gateway"
+	"github.com/zhangel/go-frame/log"
+	"github.com/zhangel/go-frame/memory_registry"
 )
 
 var errEmptyResponse = errors.New("empty response")

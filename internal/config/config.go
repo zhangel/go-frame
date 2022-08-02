@@ -7,14 +7,14 @@ import (
 	"os"
 	"strings"
 
-	"github.com/zhangel/go-frame.git/uri"
+	"github.com/zhangel/go-frame/uri"
 
-	"github.com/zhangel/go-frame.git/config"
-	"github.com/zhangel/go-frame.git/config_plugins"
-	"github.com/zhangel/go-frame.git/di"
-	"github.com/zhangel/go-frame.git/internal/declare"
-	"github.com/zhangel/go-frame.git/lifecycle"
-	"github.com/zhangel/go-frame.git/plugin"
+	"github.com/zhangel/go-frame/config"
+	"github.com/zhangel/go-frame/config_plugins"
+	"github.com/zhangel/go-frame/di"
+	"github.com/zhangel/go-frame/internal/declare"
+	"github.com/zhangel/go-frame/lifecycle"
+	"github.com/zhangel/go-frame/plugin"
 )
 
 const (

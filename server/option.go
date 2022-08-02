@@ -8,15 +8,15 @@ import (
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/keepalive"
 
-	"github.com/zhangel/go-frame.git/authentication"
-	"github.com/zhangel/go-frame.git/credentials"
-	"github.com/zhangel/go-frame.git/healthy"
-	"github.com/zhangel/go-frame.git/hooks"
-	"github.com/zhangel/go-frame.git/registry"
-	"github.com/zhangel/go-frame.git/server/internal"
-	"github.com/zhangel/go-frame.git/server/internal/option"
-	"github.com/zhangel/go-frame.git/server/internal/service"
-	"github.com/zhangel/go-frame.git/tracing"
+	"github.com/zhangel/go-frame/authentication"
+	"github.com/zhangel/go-frame/credentials"
+	"github.com/zhangel/go-frame/healthy"
+	"github.com/zhangel/go-frame/hooks"
+	"github.com/zhangel/go-frame/registry"
+	"github.com/zhangel/go-frame/server/internal"
+	"github.com/zhangel/go-frame/server/internal/option"
+	"github.com/zhangel/go-frame/server/internal/service"
+	"github.com/zhangel/go-frame/tracing"
 )
 
 const FlagCert = internal.FlagCert

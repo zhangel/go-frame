@@ -5,8 +5,8 @@ package option
 import (
 	"strings"
 
-	"github.com/zhangel/go-frame.git/declare"
-	"github.com/zhangel/go-frame.git/server/internal"
+	"github.com/zhangel/go-frame/declare"
+	"github.com/zhangel/go-frame/server/internal"
 )
 
 var AddrFlag = declare.Flag{Name: internal.FlagAddr, DefaultValue: internal.AutoSelectAddr, Description: "Bind address of the grpc server. optionals: address, 'auto'. Use 'pipe://{pipe_name}' to specify a naming pipe to listen."}

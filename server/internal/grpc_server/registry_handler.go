@@ -1,6 +1,6 @@
 package grpc_server
 
-import "github.com/zhangel/go-frame.git/registry"
+import "github.com/zhangel/go-frame/registry"
 
 type RegistryHandlerImpl struct {
 	initialRegistry bool

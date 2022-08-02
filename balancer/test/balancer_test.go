@@ -5,8 +5,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/zhangel/go-frame.git/balancer/roundrobin"
-	"github.com/zhangel/go-frame.git/registry"
+	"github.com/zhangel/go-frame/balancer/roundrobin"
+	"github.com/zhangel/go-frame/registry"
 )
 
 func TestBenchmark(t *testing.T) {

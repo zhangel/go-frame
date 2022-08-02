@@ -2,12 +2,12 @@ package retry
 
 import (
 	"context"
-	"github.com/zhangel/go-frame.git/internal/retry"
+	"github.com/zhangel/go-frame/internal/retry"
 
-	"github.com/zhangel/go-frame.git/control"
-	"github.com/zhangel/go-frame.git/log"
-	"github.com/zhangel/go-frame.git/registry"
-	"github.com/zhangel/go-frame.git/utils"
+	"github.com/zhangel/go-frame/control"
+	"github.com/zhangel/go-frame/log"
+	"github.com/zhangel/go-frame/registry"
+	"github.com/zhangel/go-frame/utils"
 
 	cmap "github.com/orcaman/concurrent-map"
 	"google.golang.org/grpc"

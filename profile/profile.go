@@ -8,12 +8,12 @@ import (
 	"runtime"
 	"strings"
 
-	"github.com/zhangel/go-frame.git/utils"
+	"github.com/zhangel/go-frame/utils"
 
-	"github.com/zhangel/go-frame.git/config"
-	"github.com/zhangel/go-frame.git/declare"
-	"github.com/zhangel/go-frame.git/lifecycle"
-	"github.com/zhangel/go-frame.git/log"
+	"github.com/zhangel/go-frame/config"
+	"github.com/zhangel/go-frame/declare"
+	"github.com/zhangel/go-frame/lifecycle"
+	"github.com/zhangel/go-frame/log"
 )
 
 const (

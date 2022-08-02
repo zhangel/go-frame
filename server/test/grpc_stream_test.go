@@ -10,11 +10,11 @@ import (
 
 	"google.golang.org/grpc/metadata"
 
-	"github.com/zhangel/go-frame.git"
-	"github.com/zhangel/go-frame.git/dialer"
-	"github.com/zhangel/go-frame.git/log"
-	"github.com/zhangel/go-frame.git/server"
-	"github.com/zhangel/go-frame.git/testpb"
+	"github.com/zhangel/go-frame"
+	"github.com/zhangel/go-frame/dialer"
+	"github.com/zhangel/go-frame/log"
+	"github.com/zhangel/go-frame/server"
+	"github.com/zhangel/go-frame/testpb"
 )
 
 type TestSrv struct {

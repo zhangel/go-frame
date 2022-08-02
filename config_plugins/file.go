@@ -8,14 +8,14 @@ import (
 	"sync"
 	"time"
 
-	"github.com/zhangel/go-frame.git/uri"
+	"github.com/zhangel/go-frame/uri"
 
 	"github.com/fsnotify/fsnotify"
 
-	"github.com/zhangel/go-frame.git/config"
-	"github.com/zhangel/go-frame.git/config/watcher"
-	"github.com/zhangel/go-frame.git/config_plugins/internal"
-	"github.com/zhangel/go-frame.git/declare"
+	"github.com/zhangel/go-frame/config"
+	"github.com/zhangel/go-frame/config/watcher"
+	"github.com/zhangel/go-frame/config_plugins/internal"
+	"github.com/zhangel/go-frame/declare"
 )
 
 const (

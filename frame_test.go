@@ -2,7 +2,7 @@ package framework
 
 import (
 	"context"
-	"github.com/zhangel/go-frame.git/log"
+	"github.com/zhangel/go-frame/log"
 	"testing"
 )
 

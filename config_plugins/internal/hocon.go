@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"sync/atomic"
 
-	"github.com/zhangel/go-frame.git/config_plugins/internal/3rdparty/hocon"
-	"github.com/zhangel/go-frame.git/internal"
+	"github.com/zhangel/go-frame/config_plugins/internal/3rdparty/hocon"
+	"github.com/zhangel/go-frame/internal"
 )
 
 type HoconReader struct {

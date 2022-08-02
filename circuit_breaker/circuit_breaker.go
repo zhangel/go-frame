@@ -4,8 +4,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/zhangel/go-frame.git/control"
-	"github.com/zhangel/go-frame.git/log"
+	"github.com/zhangel/go-frame/control"
+	"github.com/zhangel/go-frame/log"
 
 	"github.com/cep21/circuit/v3"
 	"github.com/cep21/circuit/v3/closers/hystrix"

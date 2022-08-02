@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/zhangel/go-frame.git/config"
-	"github.com/zhangel/go-frame.git/config_plugins"
+	"github.com/zhangel/go-frame/config"
+	"github.com/zhangel/go-frame/config_plugins"
 )
 
 type WatcherMock struct {

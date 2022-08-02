@@ -5,11 +5,11 @@ import (
 	"net"
 	"time"
 
-	"github.com/zhangel/go-frame.git/async"
-	"github.com/zhangel/go-frame.git/balancer"
-	"github.com/zhangel/go-frame.git/credentials"
-	"github.com/zhangel/go-frame.git/registry"
-	"github.com/zhangel/go-frame.git/tracing"
+	"github.com/zhangel/go-frame/async"
+	"github.com/zhangel/go-frame/balancer"
+	"github.com/zhangel/go-frame/credentials"
+	"github.com/zhangel/go-frame/registry"
+	"github.com/zhangel/go-frame/tracing"
 
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/keepalive"

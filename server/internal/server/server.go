@@ -3,7 +3,7 @@ package server
 import (
 	"context"
 	"fmt"
-	"github.com/zhangel/go-frame.git/lifecycle"
+	"github.com/zhangel/go-frame/lifecycle"
 	"math/rand"
 	"net"
 	"net/http"
@@ -16,14 +16,14 @@ import (
 	"google.golang.org/grpc"
 	_ "google.golang.org/grpc/encoding/gzip"
 
-	"github.com/zhangel/go-frame.git/log"
-	"github.com/zhangel/go-frame.git/memory_registry"
-	"github.com/zhangel/go-frame.git/server/internal"
-	"github.com/zhangel/go-frame.git/server/internal/grpc_server"
-	"github.com/zhangel/go-frame.git/server/internal/http_server"
-	"github.com/zhangel/go-frame.git/server/internal/option"
-	"github.com/zhangel/go-frame.git/server/internal/service"
-	"github.com/zhangel/go-frame.git/utils"
+	"github.com/zhangel/go-frame/log"
+	"github.com/zhangel/go-frame/memory_registry"
+	"github.com/zhangel/go-frame/server/internal"
+	"github.com/zhangel/go-frame/server/internal/grpc_server"
+	"github.com/zhangel/go-frame/server/internal/http_server"
+	"github.com/zhangel/go-frame/server/internal/option"
+	"github.com/zhangel/go-frame/server/internal/service"
+	"github.com/zhangel/go-frame/utils"
 )
 
 type Server struct {

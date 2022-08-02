@@ -1,7 +1,7 @@
 package log
 
 import (
-	"github.com/zhangel/go-frame.git/lifecycle"
+	"github.com/zhangel/go-frame/lifecycle"
 	"google.golang.org/grpc/grpclog"
 )
 

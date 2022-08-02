@@ -5,10 +5,10 @@ import (
 	"sync"
 	"time"
 
-	"github.com/zhangel/go-frame.git/declare"
-	"github.com/zhangel/go-frame.git/lifecycle"
-	"github.com/zhangel/go-frame.git/log"
-	"github.com/zhangel/go-frame.git/plugin"
+	"github.com/zhangel/go-frame/declare"
+	"github.com/zhangel/go-frame/lifecycle"
+	"github.com/zhangel/go-frame/log"
+	"github.com/zhangel/go-frame/plugin"
 )
 
 var (

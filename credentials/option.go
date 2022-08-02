@@ -9,7 +9,7 @@ import (
 
 	"google.golang.org/grpc/credentials"
 
-	"github.com/zhangel/go-frame.git/certificate"
+	"github.com/zhangel/go-frame/certificate"
 )
 
 var certStore = certificate.NewDefaultStore()

@@ -12,8 +12,8 @@ import (
 
 	"github.com/xhit/go-str2duration/v2"
 
-	"github.com/zhangel/go-frame.git/internal"
-	"github.com/zhangel/go-frame.git/uri"
+	"github.com/zhangel/go-frame/internal"
+	"github.com/zhangel/go-frame/uri"
 )
 
 const (

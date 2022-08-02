@@ -17,9 +17,9 @@ import (
 	"google.golang.org/grpc/connectivity"
 	"google.golang.org/grpc/status"
 
-	"github.com/zhangel/go-frame.git/dialer/internal/option"
-	"github.com/zhangel/go-frame.git/log"
-	"github.com/zhangel/go-frame.git/registry"
+	"github.com/zhangel/go-frame/dialer/internal/option"
+	"github.com/zhangel/go-frame/log"
+	"github.com/zhangel/go-frame/registry"
 )
 
 var (

@@ -5,7 +5,7 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/zhangel/go-frame.git/log/entry"
+	"github.com/zhangel/go-frame/log/entry"
 )
 
 type SimpleTextEncoder struct {

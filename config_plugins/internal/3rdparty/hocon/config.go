@@ -6,7 +6,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/zhangel/go-frame.git/internal"
+	"github.com/zhangel/go-frame/internal"
 )
 
 // Type of an hocon Value

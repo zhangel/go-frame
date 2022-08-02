@@ -12,7 +12,7 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/zhangel/go-frame.git/utils"
+	"github.com/zhangel/go-frame/utils"
 	"github.com/ahmetb/go-linq/v3"
 )
 

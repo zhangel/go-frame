@@ -25,14 +25,14 @@ import (
 	"google.golang.org/grpc/peer"
 	"google.golang.org/grpc/status"
 
-	"github.com/zhangel/go-frame.git/3rdparty/grpc-gateway/httprule"
-	http2 "github.com/zhangel/go-frame.git/http"
-	"github.com/zhangel/go-frame.git/log"
-	"github.com/zhangel/go-frame.git/memory_registry"
-	"github.com/zhangel/go-frame.git/registry"
-	"github.com/zhangel/go-frame.git/server/internal/grpc_server"
-	"github.com/zhangel/go-frame.git/server/internal/option"
-	"github.com/zhangel/go-frame.git/utils"
+	"github.com/zhangel/go-frame/3rdparty/grpc-gateway/httprule"
+	http2 "github.com/zhangel/go-frame/http"
+	"github.com/zhangel/go-frame/log"
+	"github.com/zhangel/go-frame/memory_registry"
+	"github.com/zhangel/go-frame/registry"
+	"github.com/zhangel/go-frame/server/internal/grpc_server"
+	"github.com/zhangel/go-frame/server/internal/option"
+	"github.com/zhangel/go-frame/utils"
 )
 
 type httpInvokeCtxKey int

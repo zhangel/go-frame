@@ -11,10 +11,10 @@ import (
 	"google.golang.org/grpc/peer"
 	"google.golang.org/grpc/status"
 
-	"github.com/zhangel/go-frame.git/config"
-	"github.com/zhangel/go-frame.git/internal"
-	"github.com/zhangel/go-frame.git/log"
-	"github.com/zhangel/go-frame.git/stream"
+	"github.com/zhangel/go-frame/config"
+	"github.com/zhangel/go-frame/internal"
+	"github.com/zhangel/go-frame/log"
+	"github.com/zhangel/go-frame/stream"
 )
 
 type StreamingWrapper struct {

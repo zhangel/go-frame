@@ -6,12 +6,12 @@ import (
 	"sync"
 	"time"
 
-	"github.com/zhangel/go-frame.git/config"
-	"github.com/zhangel/go-frame.git/declare"
-	"github.com/zhangel/go-frame.git/lifecycle"
-	"github.com/zhangel/go-frame.git/log/fields"
-	"github.com/zhangel/go-frame.git/log/logger"
-	"github.com/zhangel/go-frame.git/plugin"
+	"github.com/zhangel/go-frame/config"
+	"github.com/zhangel/go-frame/declare"
+	"github.com/zhangel/go-frame/lifecycle"
+	"github.com/zhangel/go-frame/log/fields"
+	"github.com/zhangel/go-frame/log/logger"
+	"github.com/zhangel/go-frame/plugin"
 )
 
 const (

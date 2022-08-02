@@ -4,7 +4,7 @@ import (
 	"log"
 	"sync"
 
-	"github.com/zhangel/go-frame.git/config"
+	"github.com/zhangel/go-frame/config"
 )
 
 type ErrorPhase int

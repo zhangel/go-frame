@@ -4,8 +4,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/zhangel/go-frame.git/config/internal"
-	"github.com/zhangel/go-frame.git/config/watcher"
+	"github.com/zhangel/go-frame/config/internal"
+	"github.com/zhangel/go-frame/config/watcher"
 )
 
 type Config internal.Config

@@ -11,8 +11,8 @@ import (
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"
 
-	"github.com/zhangel/go-frame.git/log"
-	"github.com/zhangel/go-frame.git/memory_registry/internal"
+	"github.com/zhangel/go-frame/log"
+	"github.com/zhangel/go-frame/memory_registry/internal"
 )
 
 var GlobalRegistry = NewMemoryRegistry()

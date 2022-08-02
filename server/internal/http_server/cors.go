@@ -4,7 +4,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/zhangel/go-frame.git/log"
+	"github.com/zhangel/go-frame/log"
 
 	"github.com/rs/cors"
 )

@@ -8,13 +8,13 @@ import (
 
 	"google.golang.org/grpc/keepalive"
 
-	"github.com/zhangel/go-frame.git/async"
+	"github.com/zhangel/go-frame/async"
 
-	"github.com/zhangel/go-frame.git/balancer"
-	"github.com/zhangel/go-frame.git/credentials"
-	"github.com/zhangel/go-frame.git/dialer/internal/option"
-	"github.com/zhangel/go-frame.git/registry"
-	"github.com/zhangel/go-frame.git/tracing"
+	"github.com/zhangel/go-frame/balancer"
+	"github.com/zhangel/go-frame/credentials"
+	"github.com/zhangel/go-frame/dialer/internal/option"
+	"github.com/zhangel/go-frame/registry"
+	"github.com/zhangel/go-frame/tracing"
 	"google.golang.org/grpc"
 )
 

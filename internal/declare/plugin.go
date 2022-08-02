@@ -7,8 +7,8 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/zhangel/go-frame.git/di"
-	"github.com/zhangel/go-frame.git/uri"
+	"github.com/zhangel/go-frame/di"
+	"github.com/zhangel/go-frame/uri"
 )
 
 type PluginType struct {

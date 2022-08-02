@@ -9,10 +9,10 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/zhangel/go-frame.git/certificate"
-	"github.com/zhangel/go-frame.git/config"
-	"github.com/zhangel/go-frame.git/config/watcher"
-	"github.com/zhangel/go-frame.git/log"
+	"github.com/zhangel/go-frame/certificate"
+	"github.com/zhangel/go-frame/config"
+	"github.com/zhangel/go-frame/config/watcher"
+	"github.com/zhangel/go-frame/log"
 	"github.com/google/uuid"
 )
 

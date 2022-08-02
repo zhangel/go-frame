@@ -3,8 +3,8 @@ package config_plugins
 import (
 	"os"
 
-	"github.com/zhangel/go-frame.git/config/watcher"
-	"github.com/zhangel/go-frame.git/internal/declare"
+	"github.com/zhangel/go-frame/config/watcher"
+	"github.com/zhangel/go-frame/internal/declare"
 )
 
 type EnvConfigSource struct{}

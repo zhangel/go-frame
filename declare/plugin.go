@@ -1,6 +1,6 @@
 package declare
 
-import "github.com/zhangel/go-frame.git/internal/declare"
+import "github.com/zhangel/go-frame/internal/declare"
 
 type PluginType declare.PluginType
 type PluginInfo declare.PluginInfo

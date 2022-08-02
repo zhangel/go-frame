@@ -4,11 +4,11 @@ import (
 	"context"
 	"net/http"
 
-	"github.com/zhangel/go-frame.git/server/internal"
-	"github.com/zhangel/go-frame.git/server/internal/grpc_server"
-	"github.com/zhangel/go-frame.git/server/internal/http_server"
-	"github.com/zhangel/go-frame.git/server/internal/server_list"
-	"github.com/zhangel/go-frame.git/server/internal/service"
+	"github.com/zhangel/go-frame/server/internal"
+	"github.com/zhangel/go-frame/server/internal/grpc_server"
+	"github.com/zhangel/go-frame/server/internal/http_server"
+	"github.com/zhangel/go-frame/server/internal/server_list"
+	"github.com/zhangel/go-frame/server/internal/service"
 	"google.golang.org/grpc/metadata"
 )
 

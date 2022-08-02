@@ -5,14 +5,14 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/zhangel/go-frame.git/declare"
-	"github.com/zhangel/go-frame.git/lifecycle"
-	"github.com/zhangel/go-frame.git/memory_registry"
-	"github.com/zhangel/go-frame.git/server/internal"
-	internal_http "github.com/zhangel/go-frame.git/server/internal/http_server"
-	"github.com/zhangel/go-frame.git/server/internal/option"
-	"github.com/zhangel/go-frame.git/server/internal/server"
-	"github.com/zhangel/go-frame.git/server/internal/service"
+	"github.com/zhangel/go-frame/declare"
+	"github.com/zhangel/go-frame/lifecycle"
+	"github.com/zhangel/go-frame/memory_registry"
+	"github.com/zhangel/go-frame/server/internal"
+	internal_http "github.com/zhangel/go-frame/server/internal/http_server"
+	"github.com/zhangel/go-frame/server/internal/option"
+	"github.com/zhangel/go-frame/server/internal/server"
+	"github.com/zhangel/go-frame/server/internal/service"
 )
 
 type ServiceProvider service.Provider

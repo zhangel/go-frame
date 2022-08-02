@@ -4,7 +4,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/zhangel/go-frame.git/internal"
+	"github.com/zhangel/go-frame/internal"
 )
 
 func Walk(prefix string, content map[string]interface{}, config *map[string]string) {

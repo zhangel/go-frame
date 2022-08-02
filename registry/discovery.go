@@ -17,12 +17,12 @@ import (
 
 	"google.golang.org/grpc"
 
-	"github.com/zhangel/go-frame.git/balancer"
-	"github.com/zhangel/go-frame.git/balancer/picker"
-	"github.com/zhangel/go-frame.git/balancer/roundrobin"
-	http2 "github.com/zhangel/go-frame.git/http"
-	"github.com/zhangel/go-frame.git/log"
-	"github.com/zhangel/go-frame.git/utils"
+	"github.com/zhangel/go-frame/balancer"
+	"github.com/zhangel/go-frame/balancer/picker"
+	"github.com/zhangel/go-frame/balancer/roundrobin"
+	http2 "github.com/zhangel/go-frame/http"
+	"github.com/zhangel/go-frame/log"
+	"github.com/zhangel/go-frame/utils"
 )
 
 type AddressInfo struct {

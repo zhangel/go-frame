@@ -3,7 +3,7 @@ package framework
 import (
 	"time"
 
-	"github.com/zhangel/go-frame.git/config"
+	"github.com/zhangel/go-frame/config"
 )
 
 type Options struct {

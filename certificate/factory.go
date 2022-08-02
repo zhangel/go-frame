@@ -6,7 +6,7 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/zhangel/go-frame.git/log"
+	"github.com/zhangel/go-frame/log"
 )
 
 type Factory struct {

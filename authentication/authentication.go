@@ -4,8 +4,8 @@ import (
 	"log"
 	"net/http"
 
-	"github.com/zhangel/go-frame.git/declare"
-	"github.com/zhangel/go-frame.git/plugin"
+	"github.com/zhangel/go-frame/declare"
+	"github.com/zhangel/go-frame/plugin"
 	"google.golang.org/grpc"
 )
 

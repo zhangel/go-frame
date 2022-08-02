@@ -10,8 +10,8 @@ import (
 	"google.golang.org/grpc/naming"
 	"google.golang.org/grpc/status"
 
-	"github.com/zhangel/go-frame.git/balancer/picker"
-	"github.com/zhangel/go-frame.git/log"
+	"github.com/zhangel/go-frame/balancer/picker"
+	"github.com/zhangel/go-frame/log"
 )
 
 type Provider func() picker.Builder

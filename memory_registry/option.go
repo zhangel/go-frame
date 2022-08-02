@@ -3,7 +3,7 @@ package memory_registry
 import (
 	"context"
 
-	"github.com/zhangel/go-frame.git/memory_registry/internal"
+	"github.com/zhangel/go-frame/memory_registry/internal"
 	"google.golang.org/grpc"
 )
 

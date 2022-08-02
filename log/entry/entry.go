@@ -4,8 +4,8 @@ import (
 	"runtime"
 	"time"
 
-	"github.com/zhangel/go-frame.git/log/fields"
-	"github.com/zhangel/go-frame.git/log/level"
+	"github.com/zhangel/go-frame/log/fields"
+	"github.com/zhangel/go-frame/log/level"
 )
 
 type Entry struct {

@@ -7,14 +7,14 @@ import (
 	"strings"
 	"time"
 
-	"github.com/zhangel/go-frame.git/config"
-	"github.com/zhangel/go-frame.git/config/plugin"
-	"github.com/zhangel/go-frame.git/config_plugins"
-	"github.com/zhangel/go-frame.git/declare"
-	"github.com/zhangel/go-frame.git/di"
-	declare_internal "github.com/zhangel/go-frame.git/internal/declare"
-	"github.com/zhangel/go-frame.git/uri"
-	"github.com/zhangel/go-frame.git/utils"
+	"github.com/zhangel/go-frame/config"
+	"github.com/zhangel/go-frame/config/plugin"
+	"github.com/zhangel/go-frame/config_plugins"
+	"github.com/zhangel/go-frame/declare"
+	"github.com/zhangel/go-frame/di"
+	declare_internal "github.com/zhangel/go-frame/internal/declare"
+	"github.com/zhangel/go-frame/uri"
+	"github.com/zhangel/go-frame/utils"
 )
 
 func PluginInfoByType(pluginType declare.PluginType) map[string]*declare.PluginInfoWithFlags {

@@ -4,12 +4,12 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/zhangel/go-frame.git/control"
-	"github.com/zhangel/go-frame.git/hooks"
-	"github.com/zhangel/go-frame.git/log"
-	"github.com/zhangel/go-frame.git/memory_registry"
-	"github.com/zhangel/go-frame.git/registry"
-	"github.com/zhangel/go-frame.git/utils"
+	"github.com/zhangel/go-frame/control"
+	"github.com/zhangel/go-frame/hooks"
+	"github.com/zhangel/go-frame/log"
+	"github.com/zhangel/go-frame/memory_registry"
+	"github.com/zhangel/go-frame/registry"
+	"github.com/zhangel/go-frame/utils"
 
 	cmap "github.com/orcaman/concurrent-map"
 	"google.golang.org/grpc"

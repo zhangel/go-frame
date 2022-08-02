@@ -4,8 +4,8 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/zhangel/go-frame.git/config/watcher"
-	"github.com/zhangel/go-frame.git/config_plugins/internal"
+	"github.com/zhangel/go-frame/config/watcher"
+	"github.com/zhangel/go-frame/config_plugins/internal"
 )
 
 type MemoryConfigSource struct {

@@ -8,24 +8,24 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/zhangel/go-frame.git/control"
-	"github.com/zhangel/go-frame.git/log"
+	"github.com/zhangel/go-frame/control"
+	"github.com/zhangel/go-frame/log"
 
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"
 
-	"github.com/zhangel/go-frame.git/async"
-	"github.com/zhangel/go-frame.git/balancer"
-	"github.com/zhangel/go-frame.git/config"
-	"github.com/zhangel/go-frame.git/credentials"
-	"github.com/zhangel/go-frame.git/dialer/internal"
-	"github.com/zhangel/go-frame.git/prometheus"
-	"github.com/zhangel/go-frame.git/registry"
-	"github.com/zhangel/go-frame.git/retry"
-	"github.com/zhangel/go-frame.git/server"
-	"github.com/zhangel/go-frame.git/timeout"
-	"github.com/zhangel/go-frame.git/tracing"
+	"github.com/zhangel/go-frame/async"
+	"github.com/zhangel/go-frame/balancer"
+	"github.com/zhangel/go-frame/config"
+	"github.com/zhangel/go-frame/credentials"
+	"github.com/zhangel/go-frame/dialer/internal"
+	"github.com/zhangel/go-frame/prometheus"
+	"github.com/zhangel/go-frame/registry"
+	"github.com/zhangel/go-frame/retry"
+	"github.com/zhangel/go-frame/server"
+	"github.com/zhangel/go-frame/timeout"
+	"github.com/zhangel/go-frame/tracing"
 )
 
 var (

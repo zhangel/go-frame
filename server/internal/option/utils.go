@@ -2,20 +2,20 @@ package option
 
 import (
 	"crypto/tls"
-	"github.com/zhangel/go-frame.git/server/internal/grpc_reflection"
+	"github.com/zhangel/go-frame/server/internal/grpc_reflection"
 	"io/ioutil"
 	"net"
 	"strings"
 	"time"
 
-	"github.com/zhangel/go-frame.git/authentication"
-	"github.com/zhangel/go-frame.git/config"
-	"github.com/zhangel/go-frame.git/credentials"
-	"github.com/zhangel/go-frame.git/healthy"
-	"github.com/zhangel/go-frame.git/log"
-	"github.com/zhangel/go-frame.git/registry"
-	"github.com/zhangel/go-frame.git/server/internal"
-	"github.com/zhangel/go-frame.git/tracing"
+	"github.com/zhangel/go-frame/authentication"
+	"github.com/zhangel/go-frame/config"
+	"github.com/zhangel/go-frame/credentials"
+	"github.com/zhangel/go-frame/healthy"
+	"github.com/zhangel/go-frame/log"
+	"github.com/zhangel/go-frame/registry"
+	"github.com/zhangel/go-frame/server/internal"
+	"github.com/zhangel/go-frame/tracing"
 )
 
 const pemPrefix = "-----BEGIN"

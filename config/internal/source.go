@@ -5,7 +5,7 @@ import (
 	"sync"
 	"sync/atomic"
 
-	"github.com/zhangel/go-frame.git/config/watcher"
+	"github.com/zhangel/go-frame/config/watcher"
 )
 
 type Source interface {

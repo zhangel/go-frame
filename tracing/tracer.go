@@ -6,19 +6,19 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/zhangel/go-frame.git/3rdparty/grpc-opentracing/go/otgrpc"
-	"github.com/zhangel/go-frame.git/interceptor"
+	"github.com/zhangel/go-frame/3rdparty/grpc-opentracing/go/otgrpc"
+	"github.com/zhangel/go-frame/interceptor"
 
 	"google.golang.org/grpc/metadata"
 
 	"github.com/opentracing/opentracing-go"
 	"google.golang.org/grpc"
 
-	"github.com/zhangel/go-frame.git/declare"
-	"github.com/zhangel/go-frame.git/lifecycle"
-	"github.com/zhangel/go-frame.git/log"
-	"github.com/zhangel/go-frame.git/log/fields"
-	"github.com/zhangel/go-frame.git/plugin"
+	"github.com/zhangel/go-frame/declare"
+	"github.com/zhangel/go-frame/lifecycle"
+	"github.com/zhangel/go-frame/log"
+	"github.com/zhangel/go-frame/log/fields"
+	"github.com/zhangel/go-frame/plugin"
 )
 
 var (

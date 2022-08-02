@@ -1,7 +1,7 @@
 package encoder
 
 import (
-	"github.com/zhangel/go-frame.git/log/entry"
+	"github.com/zhangel/go-frame/log/entry"
 )
 
 type Encoder interface {

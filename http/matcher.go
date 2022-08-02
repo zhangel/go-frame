@@ -8,7 +8,7 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/zhangel/go-frame.git/utils"
+	"github.com/zhangel/go-frame/utils"
 )
 
 var variablePattern = regexp.MustCompile("(?U){(.+)}")

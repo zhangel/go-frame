@@ -7,7 +7,7 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/zhangel/go-frame.git/utils"
+	"github.com/zhangel/go-frame/utils"
 )
 
 const (

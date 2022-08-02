@@ -3,10 +3,10 @@ package http_server
 import (
 	go_log "log"
 
-	"github.com/zhangel/go-frame.git/http"
-	"github.com/zhangel/go-frame.git/registry"
-	"github.com/zhangel/go-frame.git/server/internal/grpc_server"
-	"github.com/zhangel/go-frame.git/server/internal/option"
+	"github.com/zhangel/go-frame/http"
+	"github.com/zhangel/go-frame/registry"
+	"github.com/zhangel/go-frame/server/internal/grpc_server"
+	"github.com/zhangel/go-frame/server/internal/option"
 )
 
 type HttpServiceRegistryHandler struct {

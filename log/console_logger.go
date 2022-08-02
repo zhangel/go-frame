@@ -1,10 +1,10 @@
 package log
 
 import (
-	"github.com/zhangel/go-frame.git/declare"
-	"github.com/zhangel/go-frame.git/log/encoder"
-	"github.com/zhangel/go-frame.git/log/logger"
-	"github.com/zhangel/go-frame.git/log/writer"
+	"github.com/zhangel/go-frame/declare"
+	"github.com/zhangel/go-frame/log/encoder"
+	"github.com/zhangel/go-frame/log/logger"
+	"github.com/zhangel/go-frame/log/writer"
 )
 
 func init() {

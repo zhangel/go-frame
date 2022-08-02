@@ -6,7 +6,7 @@ import (
 	"net"
 	"time"
 
-	"github.com/zhangel/go-frame.git/pkix"
+	"github.com/zhangel/go-frame/pkix"
 )
 
 type CreateCertOptions struct {

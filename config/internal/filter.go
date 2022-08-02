@@ -4,7 +4,7 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/zhangel/go-frame.git/lib"
+	"github.com/zhangel/go-frame/lib"
 )
 
 type Filter struct {

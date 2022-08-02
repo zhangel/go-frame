@@ -1,17 +1,17 @@
 package grpc_server
 
 import (
-	"github.com/zhangel/go-frame.git/server/internal/grpc_reflection"
+	"github.com/zhangel/go-frame/server/internal/grpc_reflection"
 	"google.golang.org/grpc"
 
-	"github.com/zhangel/go-frame.git/credentials"
-	"github.com/zhangel/go-frame.git/deadline"
-	"github.com/zhangel/go-frame.git/interceptor"
-	"github.com/zhangel/go-frame.git/log"
-	"github.com/zhangel/go-frame.git/prometheus"
-	"github.com/zhangel/go-frame.git/recovery"
-	"github.com/zhangel/go-frame.git/server/internal/option"
-	"github.com/zhangel/go-frame.git/tracing"
+	"github.com/zhangel/go-frame/credentials"
+	"github.com/zhangel/go-frame/deadline"
+	"github.com/zhangel/go-frame/interceptor"
+	"github.com/zhangel/go-frame/log"
+	"github.com/zhangel/go-frame/prometheus"
+	"github.com/zhangel/go-frame/recovery"
+	"github.com/zhangel/go-frame/server/internal/option"
+	"github.com/zhangel/go-frame/tracing"
 )
 
 func PrepareUnaryInterceptors(options *option.Options, ignoreInternalInterceptors bool) grpc.UnaryServerInterceptor {

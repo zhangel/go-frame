@@ -7,7 +7,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/zhangel/go-frame.git/log"
+	"github.com/zhangel/go-frame/log"
 )
 
 type Store interface {
